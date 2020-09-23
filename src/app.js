@@ -6,7 +6,7 @@ const forecast = require('./utils/forecast')
 
 const app = express()
 
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 
 // define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
@@ -103,5 +103,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log('goto localhost:3000 ha!')
+    console.log('goto localhost:' + PORT + ' ha!')
 })

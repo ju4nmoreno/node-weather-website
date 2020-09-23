@@ -1,4 +1,4 @@
-const PATH_URL = `http://localhost:3000/weather?address=`
+const PATH_URL = `/weather?address=`
 const $resp = document.querySelector('.res')
 
 const showResponse = (data) => {
