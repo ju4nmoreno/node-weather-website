@@ -69,8 +69,8 @@ footer {
 
 /* about */
 .about__container {
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .about__container picture {

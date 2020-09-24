@@ -103,5 +103,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log('goto localhost:' + PORT + ' ha!')
+    console.log('the server is port:' + PORT + ' ha!')
 })
